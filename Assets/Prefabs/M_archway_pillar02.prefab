@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2204478549514126442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 194.09068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.58
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 126.291
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      propertyPath: m_Name
+      value: M_archway_pillar02
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3080313081527347088}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 713722752312972293}
+  m_SourcePrefab: {fileID: 100100000, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+--- !u!1 &1321393480115632443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1dc8b72ee4f4f0549ad190ec83629d5e, type: 3}
+  m_PrefabInstance: {fileID: 2204478549514126442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3080313081527347088
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321393480115632443}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.7316444, y: 8.2910185, z: 2.1205645}
+  m_Center: {x: -0.010557771, y: 4.09318, z: 0.0017804503}
+--- !u!114 &713722752312972293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321393480115632443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb745459ba88c4e9f284ea7b8ba5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PillarCollector
+  factText: {fileID: 0}
+  archaeologyFacts:
+  - "You found a pillar! G\xF6bekli Tepe in Turkey, constructed around 9000 BC (11,000
+    years ago), is considered the world's oldest temple, featuring T-shaped pillars
+    weighing up to 20 tons."
+  - "You found a pillar! The Great Pyramid of Giza (c. 2580\u20132510 BCE) remained
+    the world's tallest man-made structure for over 3,800 years. It is aligned to
+    cardinal points with a margin of error of only a fraction of a degree."
+  - You found a pillar! Ancient builders, such as the Egyptians, used limestone and
+    granite, transporting massive stones for miles, despite lacking modern machinery.
+    Stonehenge (c. 2500 BC) used levers, sledges, and ropes to arrange its massive
+    stone circles.
+  - You found a pillar! Many structures were built to last forever as tombs or religious
+    centers. The pyramids of Giza were built for pharaohs like Khufu to ensure their
+    safe journey to the afterlife.
+  - You found a pillar! Structures built with stone or fired brick, like the Temple
+    of Hephaestus, have survived for thousands of years, whereas wooden or mud-brick
+    structures usually decayed.
+  - You found a pillar! Chichen Itza in Mexico is a famous Mayan site known for the
+    Temple of Kukulcan (El Castillo), which displays advanced architectural, acoustic,
+    and astronomical knowledge, aligning perfectly with the equinoxes.
+  - You found a pillar! Mohenjo-daro in Pakistan was one of the earliest major cities
+    (c. 2500 BC) with a population of about 40,000, demonstrating early urban planning.
+  - You found a pillar! Dolmens, which are ancient, single-chamber tombs, are found
+    throughout Europe and Asia, featuring massive horizontal capstones supported
+    by vertical stones.
